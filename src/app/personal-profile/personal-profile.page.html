@@ -1,0 +1,49 @@
+<!-- Ion progressbars are just for an effect here. Otherwise pretty basic stuff. -->
+<body>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-button size="large" href="/touchid" routerLink="/valikko" class="ios">Menu</ion-button>
+      <ion-title>Personal Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-app>
+      <ion-header translucent>
+        <ion-toolbar>
+          <ion-title>Card</ion-title>
+        </ion-toolbar>
+      </ion-header>,
+      <ion-content fullscreen>
+        <ion-card>
+          <ion-card-header>
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/marko.jpg" />
+            <a>Name:<br> Marko Hietaranta</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <a>Currently studying in Laurea University Of Applied Sciences</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <a>Latest degree:<br> Bachelor in Education, 2006</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <a>Currently working:<br> Teacher for special needs is Vantaa</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <a>Interests:<br> Music, coding, guitar playing, mixing, mastering...</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <a>Hobbies:<br> Music and band activity, swimming, hitting gym, coding, gaming</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            Next:
+            <ion-button size="large" href="/touchid" routerLink="/personal-project" class="ios" expand="block">Personal project</ion-button>
+            <ion-tab-button routerLink="/dashboard">
+              <ion-item button>
+               <ion-icon slot="start" name='home'></ion-icon>
+                <ion-label>
+                 Home
+                </ion-label>
+              </ion-item>
+            </ion-tab-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
+    </ion-app>
+  </body>
+  
+  

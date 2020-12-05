@@ -1,0 +1,44 @@
+<body>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-button size="large" href="/touchid" routerLink="/valikko" class="ios">Menu</ion-button>
+      <ion-title>Technical Skills</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-app>
+      <ion-header translucent>
+        <ion-toolbar>
+          <ion-title>Card</ion-title>
+        </ion-toolbar>
+      </ion-header>,
+      <ion-content fullscreen>
+        <ion-card>
+          <ion-card-header>
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/skills.png" />
+            <a>Javascript</a>
+            <ion-progress-bar value="0.30"></ion-progress-bar>
+            <a>Python</a>
+            <ion-progress-bar value="0.15"></ion-progress-bar>
+            <a>Ionic Angular</a>
+            <ion-progress-bar value="0.10"></ion-progress-bar>
+            <a>Webpage design</a>
+            <ion-progress-bar value="0.45"></ion-progress-bar>
+            Next:
+            <ion-button size="large" href="/touchid" routerLink="/soft-skills" class="ios" expand="block" >Soft skills</ion-button>
+            <ion-tab-button routerLink="/dashboard">
+              <ion-item button>
+               <ion-icon slot="start" name='home'></ion-icon>
+                <ion-label>
+                 Home
+                </ion-label>
+              </ion-item>
+            </ion-tab-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
+    </ion-app>
+  </body>
+  
+  

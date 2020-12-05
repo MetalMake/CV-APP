@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-title color="dark">MARKO'S CV</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid color="medium">
+    <ion-row justify-content-center>
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <div text-center>
+          <h4>LOGIN</h4>
+        </div>
+        <div padding>
+          <ion-item>
+            <ion-input type="text" placeholder="Username"></ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-input type="password" placeholder="Password"></ion-input>
+          </ion-item>
+        </div>
+  
+        <div padding>
+          <ion-button  (click)="loginUser()" routerLink= "dashboard" size="large" href="/touchid" expand="block">ENTER</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

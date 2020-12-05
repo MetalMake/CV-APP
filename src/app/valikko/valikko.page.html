@@ -1,0 +1,85 @@
+<ion-header translucent>
+  <ion-toolbar color="secondary">
+    <ion-button size="large" href="/touchid" routerLink="/dashboard" class="ios"><</ion-button>
+    <ion-title>Scroll down for more...</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen color="dark">     
+  <ion-buttons>
+    <ion-card>
+      <ion-card-header color="dark">
+      </ion-card-header>
+      <ion-card-content>
+        <img src="../../assets/menu.png" /> 
+    <ion-list>
+    <ion-menu-toggle auto-hide="false">
+      <ion-tab-button routerLink="/dashboard">
+        <ion-item button color="medium">
+         <ion-icon size="large" slot="start" name='home'></ion-icon>
+          <ion-label>
+           Home
+          </ion-label>
+        </ion-item>
+      </ion-tab-button>
+      <ion-tab-button routerLink="/personal-profile" >
+        <ion-item button color="medium">
+          <ion-icon size="large" slot="start" name='person'></ion-icon>
+          <ion-label>
+            Personal Profile
+          </ion-label>
+        </ion-item>
+      </ion-tab-button>
+      <ion-tab-button routerLink="/technical-skills">
+        <ion-item button color="medium">
+          <ion-icon size="large" slot="start" name='calculator'></ion-icon>
+          <ion-label>
+            Technical Skills
+          </ion-label>
+        </ion-item>
+     </ion-tab-button>
+     <ion-tab-button routerLink="/soft-skills">
+       <ion-item button color="medium">
+        <ion-icon size="large" slot="start" name='chatbubble'></ion-icon>
+         <ion-label>
+          Soft Skills
+         </ion-label>
+       </ion-item>
+     </ion-tab-button>
+     <ion-tab-button routerLink="/personal-project">
+       <ion-item button color="medium">
+        <ion-icon size="large"slot="start" name='paper-plane'></ion-icon>
+         <ion-label>
+          Personal Project
+         </ion-label>
+       </ion-item>
+     </ion-tab-button>
+     <ion-tab-button routerLink="/team-project">
+       <ion-item button color="medium">
+        <ion-icon size="large"slot="start" name='people'></ion-icon>
+         <ion-label>
+          Team Project
+         </ion-label>
+       </ion-item>
+     </ion-tab-button>
+   <ion-tab-button routerLink="/extra-curriculum">
+    <ion-item button color="medium">
+     <ion-icon size="large"slot="start" name='construct'></ion-icon>
+      <ion-label>
+       Extra Activities
+      </ion-label>
+    </ion-item>
+  </ion-tab-button>
+  <ion-tab-button routerLink="/contact-information">
+    <ion-item button color="medium">
+     <ion-icon size="large"slot="start" name='mail'></ion-icon>
+      <ion-label>
+       Contact
+      </ion-label>
+    </ion-item>
+  </ion-tab-button>
+</ion-menu-toggle>
+</ion-list>
+</ion-card-content>
+</ion-card>
+</ion-buttons>    
+</ion-content>  

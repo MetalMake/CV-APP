@@ -1,0 +1,43 @@
+<body>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-button size="large" href="/touchid" routerLink="/valikko" class="ios">Menu</ion-button>
+      <ion-title>Personal Project</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-app>
+      <ion-header translucent>
+        <ion-toolbar>
+          <ion-title>Card</ion-title>
+        </ion-toolbar>
+      </ion-header>,
+      <ion-content fullscreen>
+        <ion-card>
+          <ion-card-header>
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/megaman.jpg" />
+            <h1>Party band Megamanstreetband!</h1>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+<!--             Added link to one of my bands homepage. Warning: there is no way out once you enter! -->
+            <ion-button size="large" href="https://megamanstreetband.fi" expand="block">Enter band website</ion-button>
+            <img src="../../assets/live.jpg" /> 
+            Next:
+            <ion-button size="large" href="/touchid" routerLink="/team-project" class="ios" expand="block" >Team project</ion-button>
+            <ion-tab-button routerLink="/dashboard">
+              <ion-item button>
+               <ion-icon slot="start" name='home'></ion-icon>
+                <ion-label>
+                 Home
+                </ion-label>
+              </ion-item>
+            </ion-tab-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
+    </ion-app>
+  </body>
+  
+  
+

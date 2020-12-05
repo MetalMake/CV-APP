@@ -1,0 +1,39 @@
+<body>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-button size="large" href="/touchid" routerLink="/valikko" class="ios">Menu</ion-button>
+      <ion-title>Extra Activities</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-app>
+      <ion-header translucent>
+        <ion-toolbar>
+          <ion-title>Card</ion-title>
+        </ion-toolbar>
+      </ion-header>,
+      <ion-content fullscreen>
+        <ion-card>
+          <ion-card-header>
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/extra.jpeg" />
+            <a>Swimming, running, hitting the gym, gaming...you name it!</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            Next:
+            <ion-button size="large" href="/touchid" routerLink="/contact-information" class="ios" expand="block" >CONTACT ME</ion-button>
+            <ion-tab-button routerLink="/dashboard">
+              <ion-item button>
+               <ion-icon slot="start" name='home'></ion-icon>
+                <ion-label>
+                 Home
+                </ion-label>
+              </ion-item>
+            </ion-tab-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
+    </ion-app>
+  </body>
+  
+  
+

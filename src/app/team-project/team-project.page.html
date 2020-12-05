@@ -1,0 +1,34 @@
+<body>
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-button size="large" href="/touchid" routerLink="/valikko" class="ios">Menu</ion-button>
+      <ion-title>Team Project</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-app>
+      <ion-content fullscreen>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Team project</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/wilhelmiina logo.JPG" />
+            <a>Created working mobile app in 2020 called Wilhelmiina!</a>
+            <ion-progress-bar [type]="'indeterminate'"></ion-progress-bar>
+            Next:
+            <ion-button size="large" href="/touchid" routerLink="/extra-curriculum" class="ios" expand="block">Extra activities</ion-button>
+            <ion-tab-button routerLink="/dashboard">
+              <ion-item button>
+               <ion-icon slot="start" name='home'></ion-icon>
+                <ion-label>
+                 Home
+                </ion-label>
+              </ion-item>
+            </ion-tab-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
+    </ion-app>
+  </body>
+  
+  
